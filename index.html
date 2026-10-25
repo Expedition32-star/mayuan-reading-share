@@ -370,6 +370,18 @@
     .cover .subtitle { color:var(--ink); margin-top:55px; margin-left:99px; font-size:55px; }
     .presenter { color:var(--ink); margin-top:109px; margin-left:100px; font-size:32px; }
     .cover .credit { right:40px; bottom:26px; color:white; font-size:18px; text-shadow:0 2px 5px #000; }
+    .preface-stage { background:#f4f1e8; }
+    .preface-stage::before { content:''; position:absolute; left:0; top:0; bottom:0; width:22px; background:var(--red); }
+    .preface-stage .eyebrow { margin-bottom:19px; }
+    .preface-stage h2 { font-size:62px; }
+    .preface-source { margin-top:15px; color:var(--teal); font-size:25px; font-weight:700; }
+    .preface-quote { position:relative; margin-top:47px; padding-left:56px; border-left:8px solid var(--red); font:600 36px/1.56 'Noto Serif SC','Songti SC',serif; }
+    .preface-quote::before { content:'“'; position:absolute; left:-16px; top:-61px; color:var(--red); font:900 110px 'Noto Serif SC',serif; }
+    .preface-quote p + p { margin-top:17px; }
+    .preface-quote strong { color:var(--red-dark); font-weight:900; }
+    .preface-bridge { position:absolute; left:120px; right:120px; bottom:112px; display:flex; align-items:baseline; gap:33px; border-top:3px solid var(--teal); padding-top:19px; font-size:27px; }
+    .preface-bridge b { color:var(--teal); white-space:nowrap; }
+    .preface-bridge span { color:var(--ink); }
 
     .mindmap { height:630px; margin-top:13px; background:radial-gradient(circle at 50% 50%,#fff 0 19%,transparent 19.2%),radial-gradient(circle at 50% 50%,rgba(5,126,121,.06),transparent 64%); }
     .mind-links { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
@@ -507,6 +519,22 @@
         <div class="credit">图像：1835年动力织机版画 · Wikimedia Commons</div>
       </div>
       <aside class="notes">开场不要先讲结论。邀请听众跟随两次“思想实验”，比较生产和权力变化是否真的改进普通成员的生活。</aside>
+    </section>
+
+    <section>
+      <div class="stage margin preface-stage">
+        <div class="eyebrow">文本起点 · 《共产党宣言》</div>
+        <h2>从《宣言》开始</h2>
+        <div class="preface-source">恩格斯：《共产党宣言》1883年德文版序言</div>
+        <blockquote class="preface-quote">
+          <p>贯穿《宣言》的基本思想：每一历史时代的<strong>经济生产</strong>以及必然<strong>由此产生的社会结构</strong>，是该时代<strong>政治和精神历史</strong>基础；</p>
+          <p>因此（从原始土地公有制解体以来）全部历史都是<strong>阶级斗争的历史</strong>，即社会发展各个阶段上被剥削阶级和剥削阶级之间、被统治阶级和统治阶级之间斗争的历史；</p>
+          <p>而这个斗争现在已经达到一个阶段，即被剥削被压迫的阶级（无产阶级），如果不能使整个社会永远摆脱剥削、压迫和阶级斗争，就不再能使自己从剥削它压迫它的那个阶级（资产阶级）下解放出来。”</p>
+        </blockquote>
+        <div class="preface-bridge"><b>阅读线索</b><span>经济生产与社会结构 → 阶级关系 → 人的解放</span></div>
+        <div class="footer"><span>以生产与社会结构为起点，追问阶级关系与共同解放</span><span>01 / 方法</span></div>
+      </div>
+      <aside class="notes">说明这是恩格斯1883年德文版序言对《宣言》思想的概括，不是1848年正文。由经济生产与社会结构，讲到阶级关系，再讲无产阶级解放与全社会摆脱剥削的联系。四问是我们接下来使用的分析工具，不是原文逐字列举。</aside>
     </section>
 
     <section>
